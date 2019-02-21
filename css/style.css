@@ -18,9 +18,153 @@
     width: 80px;
     bottom: 0px;
     left:20%;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.card{
+    padding: 10px;
 }
 
 .caja{
-    background-color: blueviolet;
-    margin: 10px;
+    display: inline-block;
+    padding: 20px;
+    margin: 5px;
+    background: lightgray;
 }
+
+.caja img{
+    height: 250px;
+    width: 100%;
+    object-fit: contain;
+}
+
+#lateral {
+    background-color: white;
+    padding: 5px;
+}
+
+/*GRID*/
+
+
+.rtl{
+    direction: rtl !important;
+}
+
+.product-0507{
+    float: right;
+    margin-bottom: 1rem;
+}
+.product-0507:last-child{
+    margin-left: 0;
+}
+.product-0507 .card-title{
+    height: 2rem;
+    overflow-y: hidden;
+}
+.product-0507 .card-body{
+    height: 3rem;
+    overflow-y: hidden;
+}
+.product-0507 .price{
+    color: #129812;
+    font-family: IRANSans-bold;
+}
+.product-0507 .old-price{
+    letter-spacing: 3px;
+}
+
+
+
+.flag{
+    padding-top: 0.6rem;
+    position: absolute;
+    top:0;
+    right:0.3rem;
+    width:20px;
+    height:38px;
+    color: #fff;
+    font-size:0.7rem;
+}
+.flag-green{
+    background: url("http://www.mihanmedia.ir/userfile/flag-green.png") no-repeat;
+    font-size:0.5rem;
+}
+.flag-yellow{
+    background: url("http://www.mihanmedia.ir/userfile/flag-yellow.png") no-repeat;
+    right:2rem !important;
+}
+.flag span{
+    display: block;
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+
+    /* IE */
+    -ms-transform: rotate(-90deg);
+
+    /* Opera */
+    -o-transform: rotate(-90deg);
+
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
+
+/*Mapa*/
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+#map-container-google-1{
+    margin-left: 20px;
+}
+
+#grid{
+    margin-top: 30px;
+}
+
+/*information box*/
+
+body{
+    background: #eee;
+}
+.information span{
+    font-size:15px;
+}
+.information a{
+    text-decoration:none;
+    color: #0062cc;
+    border-bottom:2px solid #0062cc;
+}
+.box{
+    padding:60px 0px;
+}
+
+.box-part{
+    background:#FFF;
+    border-radius:0;
+    padding:60px 10px;
+    margin:30px 0px;
+}
+.text{
+    margin:20px 0px;
+}
+
+.fa{
+    color:#4183D7;
+}
+
