@@ -9,85 +9,97 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   <title>Made for Nerds</title>
 </head>
 
 <body>
   <div id="cuerpo" class="container-fluid">
     <div class="row">
-      <div class="col-md-4">
-        <img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
+      <div class="col-md-3">
+        <img alt="Logo" id="logo" src="imgs/logo.png" />
       </div>
-      <div class="col-md-4">
-        <div class="progress">
-          <div class="progress-bar w-75">
-          </div>
+      <div class="col-md-7">
+        <div id="searchBar" class="input-group position-absolute">
+          <input type="text" class="form-control" name="x" placeholder="Search term...">
         </div>
+
+
+
       </div>
-      <div class="col-md-4">
-        <img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" />
+      <div class="col-md-2">
+        <img id="carrito" class="position-absolute" alt="Carrito compra" src="imgs/carrito.jpg" />
       </div>
     </div>
     <div class="row">
-      <div class="col-md-12">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-          <button class="navbar-toggler" type="button" data-toggle="collapse"
-            data-target="#bs-example-navbar-collapse-1">
+      <!-- Menu -->
+      <div class="col-md-12">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <!-- Collapse button -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+            aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button> <a class="navbar-brand" href="#">Brand</a>
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="navbar-nav">
+          </button>
+
+          <!-- Collapsible content -->
+          <div class="collapse navbar-collapse" id="basicExampleNav">
+
+            <!-- Links -->
+            <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a>
+                <a class="navbar-brand" href="#">Home
+                  <span class="sr-only">(current)</span>
+                </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="navbar-brand" href="#">Features</a>
               </li>
+              <li class="nav-item">
+                <a class="navbar-brand" href="#">Pricing</a>
+              </li>
+
+              <!-- Dropdown -->
+              
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink"
-                  data-toggle="dropdown">Dropdown link</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a
-                    class="dropdown-item" href="#">Something else here</a>
-                  <div class="dropdown-divider">
-                  </div> <a class="dropdown-item" href="#">Separated link</a>
-                </div>
-              </li>
-            </ul>
-            <form class="form-inline">
-              <input class="form-control mr-sm-2" type="text" />
-              <button class="btn btn-primary my-2 my-sm-0" type="submit">
-                Search
-              </button>
-            </form>
-            <ul class="navbar-nav ml-md-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Link <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink"
-                  data-toggle="dropdown">Dropdown link</a>
-                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a
-                    class="dropdown-item" href="#">Something else here</a>
-                  <div class="dropdown-divider">
-                  </div> <a class="dropdown-item" href="#">Separated link</a>
-                </div>
-              </li>
+                  <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">Dropdown</a>
+                  <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+
+              <li class="nav-item">
+                  <a class="navbar-brand" href="#">Pricing</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="navbar-brand" href="#">Pricing</a>
+                  </li>
+
             </ul>
           </div>
+          <!-- Collapsible content -->
+
         </nav>
       </div>
+      <!-- fin menu -->
     </div>
     <div class="row">
       <div class="col-md-12">
-        <h3>
-          h3. Lorem ipsum dolor sit amet.
-        </h3>
+        <div id="historia">
+            <h3>
+                Home >
+              </h3>
+        </div>
       </div>
     </div>
+
+    <!-- slider -->
     <div class="row">
       <div class="col-md-12">
         <div class="carousel slide" id="carousel-685322">
@@ -146,12 +158,50 @@
         </div>
       </div>
     </div>
+    <!-- fin slider -->
+    <!-- grids -->
+    <!-- grid -->
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-9">
+          <div class="container">
+              <div class="row">
+                  <div class="caja col-sm-1"></div>
+                  <div class="caja col-sm-1"></div>
+                  <div class="caja col-sm-1"></div>
+                  <div class="caja col-sm-1"></div>
+                  <div class="caja col-sm-1"></div>
+              </div>
+              <div class="row">
+                  <div class="caja col-sm-1"></div>
+                  <div class="caja col-sm-1"></div>
+                  <div class="caja col-sm-1"></div>
+                  <div class="caja col-sm-1"></div>
+                  <div class="caja col-sm-1"></div>
+              </div>
+              <div class="row">
+                  <div class="caja col-sm-1"></div>
+                  <div class="caja col-sm-1"></div>
+                  <div class="caja col-sm-1"></div>
+                  <div class="caja col-sm-1"></div>
+                  <div class="caja col-sm-1"></div>
+              </div>
+              <div class="row">
+                  <div class="caja col-sm-1"></div>
+                  <div class="caja col-sm-1"></div>
+                  <div class="caja col-sm-1"></div>
+                  <div class="caja col-sm-1"></div>
+                  <div class="caja col-sm-1"></div>
+              </div>
+          </div>
       </div>
-      <div class="col-md-6">
+<!-- fin grid -->
+
+      <div class="col-md-3">
+          <img src="imgs/publicidad.JPG" alt="publi">
       </div>
     </div>
+
+    <!-- fin grids -->
     <div class="row">
       <div class="col-md-6">
         <div class="list-group">
