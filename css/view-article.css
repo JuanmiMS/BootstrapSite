@@ -50,10 +50,6 @@
 	margin-top: 10px;
 }
 
-.product-info{
-		margin-top: 50px;
-}
-
 /*********************************************
 					VIEW
 *********************************************/
@@ -91,7 +87,7 @@
 
 .service1-items {
 	padding: 0px 0 0px 0;
-	float: left;
+	float: right;
 	position: relative;
 	overflow: hidden;
 	max-width: 100%;
