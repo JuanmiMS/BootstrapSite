@@ -14,6 +14,10 @@
     margin-left: 40px;
 }
 
+#footer{
+    width: 1350px !important;
+}
+
 #carrito {
     /* position: absolute; */
     width: 80px;
@@ -148,10 +152,6 @@
 }
 
 /*information box*/
-
-body{
-    /* background: #eee; */
-}
 .information span{
     font-size:15px;
 }
