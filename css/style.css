@@ -19,13 +19,20 @@
 }
 
 #carrito {
-    /* position: absolute; */
     width: 80px;
     bottom: 0px;
     left:20%;
     padding: 5px;
-    background-color: white;
+    background-color: #B40019;
     border-radius: 5px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+#carrito:hover{
+    border-color: white;
+    background-color: grey;
 }
 
 .card{
